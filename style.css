@@ -100,10 +100,21 @@ header h2 {
     background: #ECDAD9;
     border-radius: 5px;
     margin-top: -200px;
-    margin
 }
 
 .pesquisa-container::before {
+    width: 567px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    content: '\1F50D';
+    position: absolute;
+    left: 50%;
+    font-size: 1rem;
+}
+
+.loginCadastro-container {
     width: 567px;
     height: 40px;
     display: flex;
