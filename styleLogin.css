@@ -1,34 +1,101 @@
-    * {
-        padding: 0;
-        margin: 0;
-        box-sizing: border-box;
-        font-family: Arial, Helvetica, sans-serif;
-        color: #323233;
-        border: none;
-    }
-    
-    body {
-        /* background-image: url(); */
-        background-size: cover;
-    }
-    
-    textarea:focus,
-    input:focus {
-        outline: none;
-    }
-    
-    a {
-        font-size: .8rem;
-    }
-    
-    a:hover {
-        color: chartreuse;
-    }
-    
-    #login-container {
-        background-color: cornsilk;
-        width: 400px;
-        margin-left: auto;
-        margin-right: auto;
-        padding: 20px 30px;
-    }
+                        * {
+                            padding: 0;
+                            margin: 0;
+                            box-sizing: border-box;
+                            font-family: Arial, Helvetica, sans-serif;
+                            color: #323233;
+                            border: none;
+                        }
+                        
+                        body {
+                            /* background-image: url(); */
+                            background-size: cover;
+                        }
+                        
+                        textarea:focus,
+                        input:focus {
+                            outline: none;
+                        }
+                        
+                        a {
+                            font-size: .8rem;
+                        }
+                        
+                        a:hover {
+                            color: chartreuse;
+                        }
+                        
+                        #login-container {
+                            background-color: cornsilk;
+                            width: 400px;
+                            margin-left: auto;
+                            margin-right: auto;
+                            padding: 20px 30px;
+                            margin-top: 10vh;
+                            border-radius: center;
+                        }
+                        
+                        form {
+                            margin-top: 30px;
+                            margin-bottom: 40px;
+                        }
+                        
+                        label,
+                        input {
+                            display: none;
+                            width: 100%;
+                            text-align: left;
+                        }
+                        
+                        label {
+                            font-weight: bold;
+                        }
+                        
+                        input {
+                            border: 2px solid #123546;
+                            padding: 10px;
+                            font-size: 1rem;
+                            margin-bottom: 20px;
+                        }
+                        
+                        input:focus {
+                            border-bottom: 2px solid #123546;
+                        }
+                        
+                        #forgot-pass {
+                            text-align: right;
+                            display: block;
+                        }
+                        
+                        input[type="submit"] {
+                            text-align: center;
+                            text-transform: uppercase;
+                            font-weight: bold;
+                            border: none;
+                            height: 40px;
+                            border-radius: 20px;
+                            margin-top: 30px;
+                            color: crimson;
+                            background-color: darkgoldenrod;
+                            cursor: pointer;
+                        }
+                        
+                        input[type="submit"]:hover {
+                            background-color: darkmagenta;
+                            transition: .5s;
+                        }
+                        
+                        #social-container,
+                        #social-container p {
+                            margin-bottom: 20px;
+                        }
+                        
+                        #social-container i {
+                            height: 40px;
+                            width: 40px;
+                            border-radius: 50%;
+                            line-height: 40px;
+                            color: darkred;
+                            margin: 0 5px;
+                            cursor: pointer;
+                        }
