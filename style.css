@@ -16,7 +16,6 @@ body {
     flex-direction: column;
     font-family: 'Karla', sans-serif;
     color: white;
-
 }
 
 header {
@@ -32,17 +31,18 @@ header {
 header h1 {
     font-size: 18px;
     /* margin-right: 750px; */
-    position: relative; 
-    top: 20px; 
+    position: relative;
+    top: 20px;
     right: 600px;
     font-family: 'Roboto';
 }
+
 header h2 {
     font-size: 18px;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: -30px;
+    margin-top: -20px;
     font-family: 'Roboto';
     color: #131212;
 }
@@ -52,13 +52,13 @@ header h2 {
     margin-left: 60px;
 }
 
-.links > ul {
+.links>ul {
     display: flex;
     gap: 20px;
     color: #000000;
     list-style-type: none;
     /* margin-top: 60px; */
-}  
+}
 
 .links a {
     text-decoration: none;
@@ -68,9 +68,11 @@ header h2 {
     color: #000000;
 }
 
+
 /* .links a:hover {
     color: red;
 } */
+
 
 /* main {
     padding: 20vh 10vw;
@@ -85,18 +87,25 @@ header h2 {
     align-items: center;
     margin-top: -150px;
 }
+
 .pesquisa-container input {
-    width: 80%;
-    height: 50px;
-    font-size: 1.5rem;
-    border: none;
-    outline: none;
-    padding-left: 15%;
+    position: absolute;
+    width: 567px;
+    height: 40px;
+    left: 590px;
+    bottom: 601px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ECDAD9;
+    border-radius: 5px;
+    margin-top: -200px;
+    margin
 }
 
 .pesquisa-container::before {
-    width: 50px;
-    height: 50px;
+    width: 567px;
+    height: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -113,15 +122,12 @@ main {
     justify-content: space-between;
     align-items: center;
     padding: 0 10vw; */
-
     /* border: 10px solid #f00; */
-
-    width: 1700px; 
-    height: 700px; 
+    width: 1700px;
+    height: 700px;
     display: flex;
-    background-color: #C68E8D; 
+    background-color: #C68E8D;
     margin: 100px;
-
 }
 
 .links {
@@ -133,6 +139,7 @@ main {
     margin-top: -10px;
     margin-left: 850px;
 }
+
 
 /* .pagInicial {
     width: 100%;
@@ -148,7 +155,6 @@ footer {
     /* padding: 4vh 10vw;
     text-align: center;
     height: 40px; */
-
     height: 50px;
     display: flex;
     justify-content: center;
