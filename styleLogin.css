@@ -99,3 +99,15 @@
                             margin: 0 5px;
                             cursor: pointer;
                         }
+                        
+                        .fa-facebook-f {
+                            background-color: blue;
+                        }
+                        
+                        .fa-gmail {
+                            background-color: crimson;
+                        }
+                        
+                        #register-container p {
+                            margin-bottom: 10px;
+                        }

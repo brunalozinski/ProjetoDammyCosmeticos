@@ -1,1 +1,175 @@
+"DammyCosm" {
 
+    "Produtos": {
+
+        // "Rosto": [
+
+        "base": [
+            "id": 1,
+            "categoria": "rosto",
+            "nome": "base",
+            "preco": 75.90,
+            "descricao": "TRANSLUCIDA
+            cobertura uniforme e duradoura ",
+            "avaliacao": 5,
+            "imagem": "imgBase.png "
+        ],
+        "primer": [
+            "id": 2,
+            "categoria": "rosto",
+            "nome": "primer",
+            "preco": 45.90,
+            "descricao": "é um primer multifuncional com efeito lifting instantâneo, para todos os tipos de pele.",
+            "avaliacao": 4.5,
+            "imagem": "imgPrimer.png"
+        ],
+        "iluminador": [
+            "id": 3,
+            "categoria": "rosto",
+            "nome": "iluminador",
+            "preco": 30.90,
+            "descricao": "Radiância sofisticada e altamente pigmentada para o rosto.",
+            "avaliacao": 3.5,
+            "imagem": "imgIluminador.png"
+        ],
+        "blush": [
+            "id": 4,
+            "categoria": "rosto",
+            "nome": "blush",
+            "preco": 29.90,
+            "descricao": "Com textura pó-creme finíssima, aveludada e sedosa, o Blush desliza facilmente sobre a pele, garantindo um acabamento acetinado translúcido e incrivelmente luminoso.",
+            "avaliacao": 4,
+            "imagem": "imgBlush.png"
+        ],
+        "corretivo": [
+            "id": 5,
+            "categoria": "rosto",
+            "nome": "blush",
+            "preco": 35.90,
+            "descricao": "Uma longa duração à neutralização de sinais e imperfeições.",
+            "avaliacao": 4.7,
+            "imagem": "imgCorretivo.png"
+        ],
+        "contorno": [
+            "id": 6,
+            "categoria": "rosto",
+            "nome": "contorno",
+            "preco": 65.90,
+            "descricao": "Contorno Facial permite afinar, realçar e destacar o rosto de diferentes tons de pele.",
+            "avaliacao": 3.8,
+            "imagem": "imgContorno.png"
+        ],
+        "Pó compacto": [
+            "id": 7,
+            "categoria": "rosto",
+            "nome": "contorno",
+            "preco": 25.90,
+            "descricao": "Pó com textura leve e efeito matte. Uniformiza o tom e reduz o brilho da pele imediatamente.",
+            "avaliacao": 4.9,
+            "imagem": "imgCompacto.png"
+        ],
+
+        // ],
+
+        // "Boca": [
+
+        "batom": [
+            "id": 8,
+            "categoria": "boca",
+            "nome": "batom",
+            "preco": 12.90,
+            "descricao": "Com o Batom sua fórmula hidratante inovadora você tem o surpreendente batom mate que hidrata: seu efeito preferido muito mais confortável na boca.",
+            "avaliacao": 5,
+            "imagem": "imgBatom.png"
+        ],
+        "hidradante Labial": [
+            "id": 9,
+            "categoria": "boca",
+            "nome": "hidradante Labial",
+            "preco": 35.90,
+            "descricao": "Ideal para reparar os lábios, deixa-los hidratados e sem aparência de ressecados.",
+            "avaliacao": 4.3,
+            "imagem": "imgHidratanteLabial"
+        ],
+        "LipTint": [
+            "id": 10,
+            "categoria": "boca",
+            "nome": "LipTint",
+            "preco": 10.90,
+            "descricao": "Lip tint deixa os lábios e as maçãs do rosto corados, com aspecto saudável.",
+            "avaliacao": 4.4,
+            "imagem": "imgLipTint.png"
+        ],
+        "Mascara labial": [
+            "id": 11,
+            "categoria": "boca",
+            "nome": "Máscara labial",
+            "preco": 10.50,
+            "descricao": "Contem uma variedade de ingredientes nutritivos, hidrata suavemente os lábios, melhora os lábios secos e ásperos, e faz com que os lábios estejam úmidos, lisos e brilhantes após o uso a longo prazo.",
+            "avaliacao": 4.2,
+            "imagem": "imgMascaraLabial"
+        ],
+        "gloss": [
+            "id": 12,
+            "categoria": "boca",
+            "nome": "Gloss",
+            "preco": 22.90,
+            "descricao": " Gloss Labial proporciona lábios hidratados e volumosos, sem deixa-los grudentos.",
+            "avaliacao": 4.1,
+            "imagem": "imgGloss.png"
+        ],
+
+        // ],
+
+        "Olhos": [
+            "sombra": [
+                "id": 13,
+                "categoria": "olhos",
+                "nome": "sombra",
+                "preco": 25.90,
+                "descricao": "",
+                "avaliacao": 4.0,
+                "imagem": "imgSombra.png"
+            ],
+            "Rimel": [
+                "id": 14,
+                "categoria": "olhos",
+                "nome": "Rímel",
+                "preco": 37.90,
+                "descricao": "",
+                "avaliacao": 3.7,
+                "imagem": "imgRimel.png"
+            ],
+            "Curvador De Cílios": [
+                "id": 15,
+                "categoria": "olhos",
+                "nome": "curvador De Cilios",
+                "preco": 60.00,
+                "descricao": "",
+                "avaliacao": 5,
+                "imagem": "imgCurvadorDeCilios.png"
+            ],
+            "Delineador": [
+                "id": 16,
+                "categoria": "olhos",
+                "nome": "Delineador",
+                "preco": 15.90,
+                "descricao": "",
+                "avaliacao": 4.9,
+                "imagem": "imgDelineador.png"
+            ],
+            "Lapís De Olho": [
+                "id": 17,
+                "categoria": "olhos",
+                "nome": "Lapís De Olho",
+                "preco": 9.90,
+                "descricao": "",
+                "avaliacao": 4.2,
+                "imagem": "imgLapisDeOlho.png"
+            ],
+
+        ]
+
+    }
+
+}
