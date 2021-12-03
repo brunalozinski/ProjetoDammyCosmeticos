@@ -102,7 +102,7 @@ header h2 {
     margin-top: -200px;
 }
 
-.pesquisa-container::before {
+/* .pesquisa-container::before {
     width: 567px;
     height: 40px;
     display: flex;
@@ -112,7 +112,7 @@ header h2 {
     position: absolute;
     left: 50%;
     font-size: 1rem;
-}
+} */
 
 .loginCadastro-container {
     width: 567px;
