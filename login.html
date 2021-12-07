@@ -1,40 +1,53 @@
 <!DOCTYPE html>
-<html lang="en">
 
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
+    <title>Formulário de Login</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página Login</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" href="styleLogin.css">
+    <link rel="stylesheet" type="text/css" href="styleLogin.css" />
 </head>
 
 <body>
-    <div id="login-container">
+    <div class="container">
+        <a class="links" id="paralogin"></a>
 
-        <h1>Login</h1>
-        <form action="">
-            <label for="email">E-MAIL</label>
-            <input type="email" name="email" id="email" placeholder="Digite seu e-mail" autocomplete="off">
-            <label for="senha">SENHA</label>
-            <input type="senha" name="senha" id="senha" placeholder="Digite sua senha" autocomplete="off">
-            <a href="#" id="forgot-pass">Esqueceu a senha?</a>
-            <input type="submit" value="Login">
-        </form>
+        <div class="content">
+            <div id="login">
+                <form method="post" action="">
+                    <h1>Login</h1>
+                    <p>
+                        <label for="emailCPF_login">E-mail ou CPF</label>
+                        <input id="emailCPF_login" name="emailCPF_login" required="required" type="text"
+                            placeholder="ex. dammycosmeticos@email.com" />
+                    </p>
 
-        <div id="social-container">
-            <p>Ou entre pelas redes sociais</p>
-            <i class="fa fa-facebook-f"></i>
-            <i class="fa fa-gmail-f"></i>
-        </div>
+                    <p>
+                        <label for="senha_login">Senha</label>
+                        <input id="senha_login" name="senha_login" required="required" type="password"
+                            placeholder="ex. senha" />
+                    </p>
 
-        <div id="register-container">
-            <p>Ainda não tem uma conta?</p>
-            <a href="#"></a>
-            <i class="fa fa-gmail-f"></i>
-        </div>
+                    <p>
+                        <input type="checkbox" name="manterlogado" id="manterlogado" value="" />
+                        <label for="manterlogado">Manter-me logado</label>
+                    </p>
 
-    </div>
+                    <p>
+                        <input type="submit" value="Logar" />
+                    </p>
+
+                    <p class="link">
+                        Ainda não tem conta?
+                        <a href="#paracadastro">Cadastre-se</a>
+                    </p>
+
+                    <!-- <p class="link">
+                        Entrar como Administrador?
+                        <a href="#paraAdm">Entrar Admin</a>
+                    </p> -->
+                </form>
+            </div>
+
 </body>
 
 </html>

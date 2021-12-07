@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Formulário de cadastro</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styleCadastro.css" />
+</head>
+
+<body>
+    <div class="container">
+        <a class="links" id="paracadastro"></a>
+
+
+        <div class="content">
+            <div id="cadastro">
+                <form method="post" action="">
+                    <h1>Cadastro</h1>
+
+
+                    <p>
+                        <label for="email_cad">E-mail</label>
+                        <input id="email_cad" name="email_cad" required="required" type="email"
+                            placeholder="dammycosmeticos@email.com" />
+                    </p>
+
+                    <p>
+                        <label for="nome_cad">Nome</label>
+                        <input id="nome_cad" name="nome_cad" required="required" type="text" placeholder="nome" />
+                    </p>
+
+                    <p>
+                        <label for="sobrenome_cad">Sobrenome</label>
+                        <input id="sobrenome_cad" name="sobrenome_cad" required="required" type="text"
+                            placeholder="sobrenome" />
+                    </p>
+
+                    <p>
+                        <label for="dataNasc_cad">Data Nascimento</label>
+                        <input id="dataNasc_cad" name="dataNasc_cad" required="required" type="text"
+                            placeholder="dataNasc" />
+                    </p>
+
+                    <p>
+                        <label for="CPF_cad">CPF</label>
+                        <input id="CPF_cad" name="CPF_cad" required="required" type="text" placeholder="CPF" />
+                    </p>
+
+
+                    <p>
+                        <label for="FEM">GÊNERO</label>
+                    </p>
+
+                    <p class="generos">
+                        <input type="checkbox" name="FEMININO" id="FEM" value="" />
+                        <label for="FEM">MULHER</label>
+
+                        <input type="checkbox" name="MASCULINO" id="MAS" value="" />
+                        <label for="MAS">HOMEM</label>
+
+                        <input type="checkbox" name="OUTROS" id="OUTROS" value="" />
+                        <label for="OUTROS">OUTROS</label>
+                    </p>
+
+                    <p>
+                        <label for="senha_cad">Senha</label>
+                        <input id="senha_cad" name="senha_cad" required="required" type="password"
+                            placeholder="ex. 1234" />
+                    </p>
+
+                    <p>
+                        <label for="confirmeSenha_cad">Confirme senha</label>
+                        <input id="confirmeSenha_cad" name="confirmeSenha_cad" required="required" type="password"
+                            placeholder="ex. 1234" />
+                    </p>
+
+                    <p>
+                        <label for="tel_cad">Telefone</label>
+                        <input id="tel_cad" name="tel_cad" required="required" type="telefone"
+                            placeholder="ex. DDD + número" />
+                    </p>
+
+                    <p>
+                        <input type="submit" value="Cadastrar" />
+                    </p>
+
+                    <p class="link">
+                        Já tem conta?
+                        <a href="#paralogin"> Ir para Login </a>
+                    </p>
+                </form>
+            </div>
+        </div>
+    </div>
