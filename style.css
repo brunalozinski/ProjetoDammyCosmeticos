@@ -139,10 +139,10 @@ header h2 {
 } */
 
 .loginCadastro-container {
-    width: 567px;
+    width: 560px;
     height: 40px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     content: '\1F50D';
     position: absolute;
@@ -150,16 +150,25 @@ header h2 {
     font-size: 1rem;
 }
 
-.amei{
-    width: 10px;
-    height: 10px;
+.amei {
+    width: 35px;
+    height: 30px;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 1150px;
-    /* size: 5px; */
 
-} 
+    margin-left: 1600px;
+    margin-top: -60px;
+    margin-bottom: 50px;
+
+}
+
+.sacolinha {
+    width: 45px;
+    height: 40px;
+    display: flex;
+
+    margin-left: 830px;
+    margin-top: -60px;
+}
 
 main {
     width: 1920px;
