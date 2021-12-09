@@ -127,10 +127,8 @@
     color:#A75C57;
     margin-left: 10px;
     border: 1px solid #dd938e;
-   
     -webkit-border-radius: 4px;
     border-radius: 4px;  
-   
     -webkit-transition: all 0.4s linear;
     transition: all 0.4s  linear;
   }
