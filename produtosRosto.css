@@ -1,0 +1,202 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    background-blend-mode: darken;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right top;
+    display: block;
+    flex-direction: column;
+    font-family: 'Karla', sans-serif;
+    color: white;
+}
+
+header {
+    background-color: #a75c57;
+    height: 60px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10vw;
+}
+.comoFuncionamos {
+    color: #666666;
+    text-align: center;
+    margin-top: 25px;
+}
+.links>ul {
+    display: flex;
+    gap: 20px;
+    color: #000000;
+    list-style-type: none;
+    /* margin-top: 60px; */
+}
+
+.links a {
+    text-decoration: none;
+    font-size: 20px;
+    transition: all 1s;
+    user-select: none;
+    color: #000000;
+}
+
+header h1 {
+    font-size: 18px;
+    position: relative;
+    top: 15px;
+    /* right: 600px; */
+    /* margin: 0 50px 0 10px; */
+    right: 350px;
+    font-family: 'Roboto';
+}
+
+header h2 {
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -20px;
+    font-family: 'Roboto';
+    color: #ffffff;
+
+    font-style: normal;
+    font-weight: normal;
+    line-height: 28px;
+
+    margin: 0 20em 0 0;
+}
+
+h3 {
+    font-size: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 100;
+    /* font-family: 'Roboto'; */
+    font-style: normal;
+    margin: 60px 0em 0 45px;
+    font-style: bold;
+    color: #868686;
+}
+
+main {
+    width: 1920px;
+    height: 600px;
+    display: flex;
+    background-color: #e8d7d7;
+    margin: initial;
+    margin: 70px 1em 0 auto;
+}
+
+.etapas {
+    margin: 100px 0 0 320px;
+}
+
+.etapas h1 {
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center; /*Alinha o texto no meio*/
+    font-style: normal;
+    max-width: 170px;
+
+    color: #000000;
+}
+
+.etapa2 {
+    margin: 100px;
+}
+
+.etapa2 h1 {
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center; /*Alinha o texto no meio*/
+    font-style: normal;
+    max-width: 170px;
+
+    color: #000000;
+}
+
+.etapa3 {
+    margin: 50px;
+    margin: 100px 0 0 0;
+}
+
+.etapa3 h1 {
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center; /*Alinha o texto no meio*/
+    font-style: normal;
+    max-width: 200px;
+    margin: 0 0 0 -10px;
+
+    color: #000000;
+}
+
+.etapa4 {
+    margin: 100px;
+    margin: 100px 0 0 100px;
+}
+
+.etapa4 h1 {
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center; /*Alinha o texto no meio*/
+    font-style: normal;
+    max-width: 200px;
+    /* margin: 0 0 0 -10px;  */
+
+    color: #000000;
+}
+
+.etapa5 {
+    margin: 100px;
+    margin: 100px 0 0 100px;
+}
+
+.etapa5 h1 {
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center; /*Alinha o texto no meio*/
+    font-style: normal;
+    max-width: 200px;
+    margin: 0 0 0 -10px;
+
+    color: #000000;
+}
+
+/*IMAGEM DOS PRODUTOS MAIS VENDIDOS*/
+.etapa1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 15px;
+}
+
+footer {
+    height: 50px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    margin-top: 50px;
+}
