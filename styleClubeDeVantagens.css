@@ -8,16 +8,109 @@ body {
     width: 100vw;
     height: 100vh;
     background-color: white;
+    background-blend-mode: darken;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right top;
+    display: block;
     flex-direction: column;
-    font-family: 'Karla', sans-serif;
     color: white;
 }
 
 header {
     background-color: #a75c57;
     height: 60px;
-    width: 99vw;
+    width: 100%;
     display: flex;
+    justify-content: space-between;
     align-items: center;
     padding: 0 10vw;
+}
+
+header h1 {
+    width: 30%;
+    font-size: 18px;
+    /* margin-right: 750px; */
+    margin-top: 30px;
+    font-family: 'Roboto';
+    /* margin-right: 50px; */
+}
+
+header h2 {
+    width: 70%;
+    font-size: 38px;
+    display: flex;
+    align-items: center;
+    /* margin-right: 5px; */
+    font-family: 'Roboto';
+    margin-left: 200px;
+}
+nav {
+    margin-top: 100px;
+    color: rgb(131, 131, 131);
+    font-size: 34px;
+    font-family: 'Roboto';
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.comoFuncionamos {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    color: black;
+    font-family: 'Roboto';
+    font-weight: bold;
+}
+.comunidade {
+    padding: 25px;
+    border: black;
+    margin: 10px;
+    background-color: #E8D7D7;
+}
+.comunidade h1 {
+    font-size: 34px;
+}
+p {
+    display: flex;
+    margin-top: 25px;
+    max-width: 200px;
+}
+.produtos {
+    padding: 25px;
+    border: black;
+    margin: 10px;
+    background-color: #C68E8D;
+}
+.produtos img {
+    width: 342px;
+    height: 409px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    margin: 15px;
+}
+.produtos2 {
+    display: flex;
+}
+/* .produtos3 {} */
+.sustentabilidade {
+    padding: 25px;
+    border: black;
+    margin: 10px;
+    background-color: #DAAEAD;
+}
+.sustentabilidade img {
+    width: 300px;
+    height: 300px;
+    filter: drop-shadow(1px 5px 5px rgba(0, 0, 0, 0.25));
+    margin: 15px;
+    float: left;
+}
+.sustentabilidade button {
+    background-color: #ECDAD9;
+    color: #A75C57;
+    font-size: 28px;
+    padding: 15px;
+    padding-inline-start: 35px;
+    padding-inline-end: 35px;
 }
