@@ -27,12 +27,40 @@ header {
     align-items: center;
     padding: 0 10vw;
 }
-.comoFuncionamos {
-    color: #666666;
-    text-align: center;
-    margin-top: 25px;
+
+header h1 {
+    font-size: 18px;
+    /* margin-right: 750px; */
+    position: relative;
+    top: 15px;
+    right: 215px;
+    font-family: 'Roboto';
 }
-.links>ul {
+
+header h2 {
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    width: 900px;
+    height: 23px;
+
+    color: #000000;
+    /* font-style: bold; */
+    font-weight: 500;
+    line-height: 21px;
+
+    margin: 0 20em 20px 0;
+}
+
+.logo img {
+    width: 220px;
+    margin-left: 110px;
+}
+
+.links > ul {
     display: flex;
     gap: 20px;
     color: #000000;
@@ -48,149 +76,159 @@ header {
     color: #000000;
 }
 
-header h1 {
-    font-size: 18px;
-    position: relative;
-    top: 15px;
-    /* right: 600px; */
-    /* margin: 0 50px 0 10px; */
-    right: 350px;
-    font-family: 'Roboto';
+.a-link {
+    text-decoration: none;
+    color: #000000;
+    /* font-style: bold; */
+    font-weight: bold;
+    margin-bottom: 150px;
+    margin-left: 400px;
+
+    display: block;
 }
 
-header h2 {
-    font-size: 24px;
+.links {
+    width: 20px;
+    height: 5px;
     display: flex;
-    align-items: center;
     justify-content: center;
-    margin-top: -20px;
-    font-family: 'Roboto';
-    color: #ffffff;
-
-    font-style: normal;
-    font-weight: normal;
-    line-height: 28px;
-
-    margin: 0 20em 0 0;
-}
-
-h3 {
-    font-size: 36px;
-    display: flex;
     align-items: center;
-    justify-content: center;
-    font-weight: 100;
+    text-align: center;
+    /* margin-top: 5px; */
+    margin-left: 765px;
+
     /* font-family: 'Roboto'; */
-    font-style: normal;
-    margin: 60px 0em 0 45px;
-    font-style: bold;
-    color: #868686;
+
+    padding: 2vh 5vw;
 }
 
+.pesquisa-container {
+    width: 100%;
+    height: 100px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+
+    margin-top: -180px;
+
+    /* margin: 10px 10em 0 0; */
+}
+
+.pesquisa-container input {
+    position: absolute;
+    width: 600px;
+    height: 50px;
+    left: 565px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ecdad9;
+    border-radius: 5px;
+
+    margin-bottom: 15px;
+
+    /* margin-top: 20px; */
+}
+
+/* .pesquisa-container::before {
+    width: 567px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    content: '\1F50D';
+    position: absolute;
+    left: 50%;
+    font-size: 1rem;
+} */
+
+.loginCadastro-container {
+    width: 560px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    content: '\1F50D';
+    position: absolute;
+    left: 50%;
+    font-size: 1rem;
+}
+.amei {
+    width: 15px;
+    height: 20px;
+    display: flex;
+    margin-left: 1600px;
+    margin-top: -65px;
+    margin-bottom: 50px;
+}
+.sacolinha {
+    width: 20px;
+    height: 25px;
+    display: flex;
+    margin-left: 825px;
+    margin-top: -37px;
+}
 main {
-    width: 1920px;
-    height: 600px;
+    width: 100%;
+    height: 500px;
     display: flex;
     background-color: #e8d7d7;
     margin: initial;
     margin: 70px 1em 0 auto;
+    font-family: 'Roboto', sans-serif;
 }
-
-.etapas {
-    margin: 100px 0 0 320px;
+.imgProduto {
+    margin-top: 40px;
+    margin-left: 400px;
 }
-
-.etapas h1 {
-    font-size: 18px;
-    display: flex;
+.sobreProduto {
+    width: 600px;
+    height: 500px;
+    margin-left: 150px;
+    margin-top: 50px;
+    color: #3d3d3d;
+}
+.avaliacoes {
+    margin-top: 5px;
+  
+}
+.avaliacoes span {
+    color: yellow;
+    font-size: 35px;
+    margin-right: 15px;
+}
+.venda h1 {
+    margin-top: 10px;
+    font-size: 20px;
+    color: rgb(110, 110, 110);
+    margin-bottom: 20px;
+}
+.preco h1{
+    font-size: 20px;
+    text-decoration: line-through;
+}
+.preco h2{
+    margin-top: 15px;
+    font-size: 50px;
+    font-weight: bold;
+    color: black;
+}
+button {
+    width: 175px;
+    height: 100px;
+    margin-top: 40px;
+    max-height: 50px;
+    font-size: 20px;
     align-items: center;
     justify-content: center;
-    text-align: center; /*Alinha o texto no meio*/
-    font-style: normal;
-    max-width: 170px;
-
-    color: #000000;
-}
-
-.etapa2 {
-    margin: 100px;
-}
-
-.etapa2 h1 {
-    font-size: 18px;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center; /*Alinha o texto no meio*/
-    font-style: normal;
-    max-width: 170px;
-
-    color: #000000;
+    font-style: bold;
+    background-color: #A75C57;
+    color: white;
+    box-shadow: 6px 4px 4px #8F8C8C;
 }
-
-.etapa3 {
-    margin: 50px;
-    margin: 100px 0 0 0;
-}
-
-.etapa3 h1 {
-    font-size: 18px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center; /*Alinha o texto no meio*/
-    font-style: normal;
-    max-width: 200px;
-    margin: 0 0 0 -10px;
-
-    color: #000000;
-}
-
-.etapa4 {
-    margin: 100px;
-    margin: 100px 0 0 100px;
-}
-
-.etapa4 h1 {
-    font-size: 18px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center; /*Alinha o texto no meio*/
-    font-style: normal;
-    max-width: 200px;
-    /* margin: 0 0 0 -10px;  */
-
-    color: #000000;
-}
-
-.etapa5 {
-    margin: 100px;
-    margin: 100px 0 0 100px;
-}
-
-.etapa5 h1 {
-    font-size: 18px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center; /*Alinha o texto no meio*/
-    font-style: normal;
-    max-width: 200px;
-    margin: 0 0 0 -10px;
-
-    color: #000000;
-}
-
-/*IMAGEM DOS PRODUTOS MAIS VENDIDOS*/
-.etapa1 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 100px;
-    margin-bottom: 15px;
-}
-
 footer {
     height: 50px;
     display: flex;
