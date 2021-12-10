@@ -150,7 +150,6 @@ header h2 {
     font-size: 1rem;
 }
 
-<<<<<<< HEAD
 .amei {
     width: 35px;
     height: 30px;
@@ -170,7 +169,7 @@ header h2 {
     margin-left: 830px;
     margin-top: -60px;
 }
-=======
+
 .amei{
     width: 10px;
     height: 10px;
@@ -181,7 +180,6 @@ header h2 {
     /* size: 5px; */
 
 } 
->>>>>>> 7b460306f216f29a7a23b0ac2e54fe8cd5917f45
 
 main {
     width: 1920px;
