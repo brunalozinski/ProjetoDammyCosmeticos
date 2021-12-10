@@ -146,23 +146,23 @@ header h2 {
     align-items: center;
     content: '\1F50D';
     position: absolute;
-    left: 50%;
+    left: 55%;
     font-size: 1rem;
 }
 .amei {
-    width: 15px;
-    height: 20px;
+    width: 40px;
+    height: 35px;
     display: flex;
-    margin-left: 1600px;
-    margin-top: -65px;
-    margin-bottom: 50px;
+    margin-left: 1690px;
+    margin-top: -70px;
+    margin-bottom: 20px;
 }
 .sacolinha {
-    width: 20px;
-    height: 25px;
+    width: 45px;
+    height: 45px;
     display: flex;
-    margin-left: 825px;
-    margin-top: -37px;
+    margin-left: 875px;
+    margin-top: -30px;
 }
 
 main {
@@ -223,7 +223,7 @@ main {
     width: 175px;
     height: 100px;
     margin-top: 55px;
-    margin-left: 1250px;
+    margin-left: 1225px;
     max-height: 50px;
     font-size: 20px;
     align-items: center;
@@ -249,7 +249,11 @@ main {
     padding: 2vh 5vw;
 }
 
-footer {
+.logoBranco {
+    height: 100px;
+}
+
+.footer-span {
     /* padding: 4vh 10vw;
     text-align: center;
     height: 40px; */
@@ -257,6 +261,74 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     /* font-style: italic; */
 }
+
+
+footer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #A75C57;
+  
+}
+
+.icones {
+    display: flex;
+    
+    flex-direction: row;
+    margin-left: 900px;
+    
+}
+
+.icones .instagram img {
+    width: 60px;
+    margin-left: -19px;
+}
+
+.icones .email img {
+    width: 65px;
+    height: 60px;
+    margin-left: 30px;
+}
+
+.fale-conosco{
+    justify-content: center;
+    align-items: center;
+
+    max-width: 300px;
+    margin-left: 810px;
+
+    color: rgb(29, 29, 29);
+
+}  
+
+.fale-conosco h2{
+    color: rgb(0, 0, 0);
+
+}
+
+
+
+/*Tablets*/
+/* @media screen and (max-width: 768px){
+    section, aside {
+        width:100%;
+        padding: 0;
+    }
+} */
+
+/*Celulares*/
+/* @media screen and (max-width: 600px) {
+    nav li {
+        float: none;
+        text-align: center;
+        width: 100%
+    }
+
+    footer p {
+        display: none;
+    }
+} */
+
